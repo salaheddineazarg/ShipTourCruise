@@ -97,7 +97,7 @@
 <img class="ship" src="<?php url('Public/IMAGE2/ship.png') ?>" alt="">
 <!-- ================================================================================= -->
 
-<section class="d-flex container flex-column align-items-center  gap-4">
+<section class="d-flex  flex-column align-items-center  gap-4">
   <h1 class="">THE BEST OFFERS</h1>
   <canvas class="w-25 bg-primary " style="height:10px;"></canvas>
 <div class=" mb-4 mt-3 cards2 p-4 w-100 h-100 ">

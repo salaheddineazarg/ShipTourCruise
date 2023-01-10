@@ -126,8 +126,8 @@
     <h4><b><?php echo"PERSON/".$row['price']."$"?></b></h4>
   
     <div clas="d-flex">
-    <a href="<?php url('gestion/update/'.$row['id_c'])?>" class="btn btn-primary"  >UPDATE</a>
-    <a href="<?php url('gestion/delete/'.$row['id_c'])?>" class="btn btn-primary">DELETE</a>
+    <a href="<?php url('reservation/index/'.$row['id_c'])?>" class="btn btn-primary"  >RESEVE NOW</a>
+   
   </div>
   </div>
 </div> 
