@@ -51,16 +51,7 @@
   <div class="card-body">
     <h5 class="card-title"><?php echo $row['name']?></h5>
     <p class="card-text"><?php echo $row['description']?></p> 
-    <p><i> Start From*</i></p>
-   <div class="d-flex">
-   <i class="fa-solid fa-location-dot"></i>
-    <p><?php echo $row['port_departeure'] ?></p>
-   </div>
   
-   <div class="d-flex">
-   <i class="fa-solid fa-ship"></i>
-    <p><?php echo strtoupper($row['shipname'])?></p>
-   </div>
     <h4><b><?php echo"PERSON/".$row['price']."$"?></b></h4>
   
     <div clas="d-flex">
